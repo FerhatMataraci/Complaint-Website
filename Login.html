@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giriş Yap</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="LoginBody text-center">
+    <nav class = "navbar navbar-default">
+        <div class="header container-fluid">
+            <div class="header navbar-header">
+                <a class ="marka navbar-brand" href="MainPage.html"><i id="txtMarka">Şikayetçiyim</i></a>
+            </div>
+                <ul class = "nav navbar-nav">
+                    
+                    <li class = "menufirma" >
+                        <a id = "complaints" href="Complaints.html">Şikayetler</a> 
+                    </li>
+                    <li class = "menu" >
+                        <a id ="myComplaints" href="#">Şikayetlerim</a> 
+                    </li> 
+                    <li class = "menu" >
+                        <a id="add" href="#">Şikayet ekle/sil</a> 
+                    </li> 
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li class = "Profile" >
+                        <a href="Profile.html">Profil</a> 
+                    </li>
+                    <li class = "Login">
+                        <a id = "login" href="#">Giriş Yap / Üye Ol</a>
+                    </li> 
+                </ul>
+        </div>
+    </nav>
+    <form class="form">
+        <main class="form-signin w-100 m-auto">
+          
+            <form class="form"> 
+                <ul class="sign nav nav-tabs">
+                    <li id="girismenu" class="active"><a data-toggle="tab" href="#giris">Giriş Yap</a></li>
+                    <li id="kayitmenu"><a data-toggle="tab" href="#kayit">Kayıt Ol</a></li>
+                </ul>
+
+                <div class="tab-content">
+                <div id = "giris" class="tab-pane fade in active">
+                <h1 class="h3 mb-3 fw-normal">Giriş Yap</h1>
+                <div class="login_form form-floating">
+                    <label for="floatingInput">Email adresi</label>
+                    <input type="email" class="form-control" id="floatingInput" placeholder="örnek@mail.com">
+                </div>
+                
+                <div class="login_form form-floating">
+                    <label for="floatingPassword">Şifre</label>
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Şifre">
+                </div>
+                
+                <div class="checkbox mb-3">
+                    <label>
+                        <input type="checkbox" value="remember-me"> Beni Hatırla
+                    </label>
+                </div>
+                 <button id="btnlogin" class="w-100 btn btn-lg btn-primary" type="submit">
+                    Giriş Yap
+                </button>
+            </div>
+
+            <div id="kayit" class="tab-pane fade"> 
+                <h1 class="h3 mb-3 fw-normal">Kayıt Ol</h1>
+                <div class="login_form form-floating">
+                    <label for="floatingInput">Email adresi</label>
+                    <input type="email" class="form-control" id="floatingInput" placeholder="örnek@mail.com">
+                </div>
+                
+                <div class="login_form form-floating">
+                    <label for="floatingPassword">Şifre</label>
+                    <input type="password" class="form-control" placeholder="Şifre" id="floatingPassword" >
+                </div>
+                
+                <div class="login_form form-floating ">
+                    <label for="username">Kullanıcı Adı</label>
+                    <input type="text" class= "form-control" id="username" placeholder="Kullanıcı Adı"> 
+                </div>
+                
+                <div class="form-floating">
+                    <button id="btnlogin" class="w-100 btn btn-lg btn-primary" type="submit">Kayıt Ol</button>
+                </div>
+            </div>
+            <a href="CoSignUp.html">Şirket hesabı oluşturun</a>
+        </div>
+            </form> 
+        
+        </main>
+    </form>
+    
+</body>
+
+</html>

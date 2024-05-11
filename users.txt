@@ -1,0 +1,8 @@
+Kullanıcı:
+email: aliyazar@mail.com
+şifre: 1234
+
+Şirket Kullanıcısı:
+email: egekilic@mail.com
+şifre: 5678
+

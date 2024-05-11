@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Şikayetlerim</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>  
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="MyComplaints">
+    <nav class = "navbar navbar-default">
+        <div class="header container-fluid">
+            <div class="header navbar-header">
+                <a class ="marka navbar-brand" href="MainPage.html"><i id="txtMarka">Şikayetçiyim</i></a>
+            </div>
+                <ul class = "nav navbar-nav">
+                    
+                    <li class = "menufirma" >
+                        <a id = "complaints" href="Complaints.html">Şikayetler</a> 
+                    </li>
+                    <li class = "menu" >
+                        <a id ="myComplaints" href="#">Şikayetlerim</a> 
+                    </li> 
+                    <li class = "menu" >
+                        <a id="add" href="#">Şikayet ekle/sil</a> 
+                    </li> 
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li class = "Profile" >
+                        <a id = "Profile" href="#">Profil</a> 
+                    </li>
+                    <li class = "Login">
+                        <a id = "login" href="Login.html">Giriş Yap / Üye Ol</a>
+                    </li> 
+                </ul>
+        </div>
+    </nav>
+
+<div class = "panel-container" id="sikayetlerim">
+
+    <div class= "panel panel-default" id="mySikayet1">
+        <div class="cmp panel-heading text-center">
+            Şirket Adı
+        </div>
+        <div class="hdr panel-heading">
+            Sipariş ettiğim ürün geç bir tarihte geldi.
+        </div>
+        <div id = "cmp1" class="panel-body">
+            10.02.2022 tarihinde sipariş ettiğim 24763 numaralı ürünün son teslimat tarihi 23.02.2022 gözüküyordu, ancak ürün bana 10.03.2022 tarihinde ulaştı.
+        </div>
+        <button class ="duzenle" id="duzenle1"> Şikayeti düzenle </button>
+        <button id="submit-button1" class="btn btn-primary btn-xs pull-right" style="display:none">Düzenle</button>
+        <button class = "kaldir" id="delete1"> Şikayeti Kaldır </button>
+    </div>
+
+    <div class=" panel panel-default" id="mySikayet2">
+        <div class="cmp panel-heading text-center">
+            Şirket Adı
+        </div>
+        <div class="hdr panel-heading">
+            Cüzdanıma yüklediğim para cüzdan bakiyeme eklenmedi.
+        </div>
+        <div id="cmp2" class="panel-body">
+            17.02.2022 tarihinde cüzdan bakiyeme banka kartımla 100 tl yükledim, kartımdan 100 tl çekilmesine rağmen cüzdan bakiyeme eklenmedi.
+        </div>
+        <button class ="duzenle" id="duzenle2"> Şikayeti düzenle </button>
+        <button id="submit-button2" class="btn btn-primary btn-xs pull-right" style="display:none">Düzenle</button>
+        <button class = "kaldir" id="delete2"> Şikayeti Kaldır </button>
+    </div>
+
+    <div class=" panel panel-default" id="mySikayet3">
+        <div class="cmp panel-heading text-center">
+            Şirket Adı
+        </div>
+        <div class="hdr panel-heading">
+            Cüzdan bakiyemdeki para kayboldu.
+        </div> 
+        <div id="cmp3"class="panel-body">
+            Cüzdan bakiyemi son kontrol ettiğimde 200 tl'ye sahiptim, 17.02.2022' de hesabıma tekrar giriş yapıp bakiyemi kontrol ettiğimde 0 tl olduğunu gördüm.
+        </div>
+        <button class ="duzenle" id="duzenle3"> Şikayeti düzenle </button>
+        <button id="submit-button3" class="btn btn-primary btn-xs pull-right" style="display:none">Düzenle</button>
+        <button class = "kaldir" id="delete3"> Şikayeti Kaldır </button>
+    </div>
+</div>    
+
+    <button id="sikayetEkle"> Yeni şikayet oluştur </button>
+</body>
+</html>

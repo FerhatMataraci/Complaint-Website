@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Şikayet oluştur / sil</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="Add_Delete">
+    <nav class = "navbar navbar-default">
+        <div class="header container-fluid">
+            <div class="header navbar-header">
+                <a class ="marka navbar-brand" href="MainPage.html"><i id="txtMarka">Şikayetçiyim</i></a>
+            </div>
+                <ul class = "nav navbar-nav">
+                    
+                    <li class = "menufirma" >
+                        <a id = "complaints" href="Complaints.html">Şikayetler</a> 
+                    </li> 
+                    <li class = "menu" >
+                        <a id ="myComplaints" href="#">Şikayetlerim</a> 
+                    </li> 
+                    <li class = "menu" >
+                        <a id="add" href="#">Şikayet ekle/sil</a> 
+                    </li> 
+                </ul>
+    
+                <ul class="nav navbar-nav navbar-right">
+                    <li class = "Profile" >
+                        <a id="Profile" href="#">Profil</a> 
+                    </li>
+                    <li class = "Login">
+                        <a id = "login" href="Login.html">Giriş Yap / Üye Ol</a>
+                    </li> 
+                </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <form>
+            <h1 class="text-center">Şikayet Ekle</h1>
+
+            <div class="skyt form-group">
+                <label for="formGroupExampleInput">Firma Adı</label>
+                <input type="text" class="form-control" id="firmaAdi" placeholder="Firma">
+            </div>
+
+            <div class="skyt form-group">
+                <label for="formGroupExampleInput">Şikayet Başlığı</label>
+                <input type="text" class="form-control" id="sikayetBaslik" placeholder="Şikayet Başlığı">
+            </div>
+
+            <div class="skyt form-group">
+            <label for="formGroupExampleInput2">Şikayetiniz </label>
+            <input type="text" class="form-control input-lg" id="sikayet" placeholder="Şikayetiniz">
+            </div>
+            
+            
+        </form>    
+        <button id="ekle">
+            Şikayet ekle
+        </button>
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,266 @@
+
+#MainPage{
+    background-color: azure;
+}
+
+#Add_Delete{
+    background-color:azure
+}
+
+.menufirma{
+    background-color: rgb(52, 95, 53);
+}
+
+.LoginBody{
+    background-color: rgb(179, 229, 229);
+}
+
+#Complaints{
+    background-color: rgb(182, 182, 204);
+}
+
+.header{
+    background-color: rgb(65, 52, 78);
+}
+
+#txtMarka{
+    font-size: 21px;
+    color:rgb(118, 133, 135);
+}
+
+
+.heading{
+    text-align: center;
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.parag{
+    text-align: left;
+    font-size: 16px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+
+/* Login Page */
+
+.menu{
+    background-color: rgb(51, 71, 64);
+}
+
+.form{
+    padding: 200px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    position: relative;
+}
+
+.sign{
+  margin: 20px;
+}
+
+#girismenu{
+    
+    background-color: rgb(35, 9, 60);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#kayitmenu{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(6, 53, 27);
+    font-size: 15px;
+}
+
+.form-signin {
+    max-width: 330px;
+    margin: auto;
+    position: relative;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+    margin: auto;
+    position: relative;
+}
+
+.form-signin input[type="email"] {   
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin: auto;
+    position: relative;
+}
+
+.form-signin input[type="password"] {
+    border-top-right-radius: 15px;  
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin: auto;
+    position: relative;
+}
+
+.login_form{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#username{
+    border-top-right-radius: 15px;  
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin: auto;
+    position: relative;
+}
+
+#comname{
+    border-top-right-radius: 15px;  
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin: auto;
+    position: relative;
+}
+/* Add/Delete Complaint page  */
+
+.sikayetForm{
+    padding: 200px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    position: relative;
+}
+
+
+.panel-default .panel-heading.cmp{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(143, 143, 143);
+    background-color: #621c1c;
+}
+
+.panel-default .panel-heading.hdr {
+    background-color: #0066CC; 
+    color: #333333; /* Dark grey */
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .panel + .panel {
+    margin-top: 35px !important;
+  }
+  
+  
+#ekle{
+    margin-left: 20px;
+    background-color: greenyellow;
+}
+
+.complaints{
+    padding: 20px;
+}
+
+.comp{
+margin: 20px;
+color: rgb(222, 235, 231);
+}
+
+.firma
+{   text-align: center;
+    font-size: 15px;
+}
+
+#MyComplaints{
+    background-color: beige;
+}
+
+
+.skyt{
+    margin:20px;
+}
+
+/* My Complaints */
+
+
+
+
+/* Complaints */
+
+#search-bar{
+    
+    margin: 20px;
+    border-top-right-radius: 15px;  
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    object-position: center;
+
+}
+
+.kullanici{
+    text-align: right;
+    color: rgb(135, 3, 244);
+}
+
+.yanit{
+    background-color: rgb(26, 172, 53);
+    color: rgb(235, 203, 234); 
+    margin: 20px;
+}
+
+.kaldir{
+    background-color: rgb(183, 6, 53);
+}
+.btnyanit{
+    background-color: rgb(38, 194, 38);
+}
+.duzenle{
+    background-color: rgb(88, 190, 205);
+}
+
+#sikayetEkle{
+    background-color: rgb(253, 203, 6);
+}
+
+
+.pnlskyt {
+    position: relative;
+  }
+
+  .panel.solved:after {
+    content: "✔";
+    color: green;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 32px;
+  }
+
+  .btnsolved {
+    background-color: rgb(161, 250, 6);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  .kapat{
+    background-color: #621c1c;
+    color: #f1d7d7;
+  }
+  .kpt.panel-heading{
+    background-color: #3f0202;
+    color: azure;
+  }
+  
+
+
+
+
+
+
+  
+  
+  

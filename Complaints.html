@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Şikayetler</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" href="style.css"> 
+    <script src="script.js"></script> 
+</head>
+<body id="Complaints">
+<nav class = "navbar navbar-default">
+    <div class="header container-fluid">
+        <div class="header navbar-header">
+            <a class ="marka navbar-brand" href="MainPage.html"><i id="txtMarka">Şikayetçiyim</i></a>
+        </div>
+            <ul class = "nav navbar-nav">
+                
+                <li class = "menufirma" >
+                    <a id = "complaints" href="Complaints.html">Şikayetler</a> 
+                </li>
+                <li class = "menu" >
+                    <a id ="myComplaints" href="#">Şikayetlerim</a> 
+                </li> 
+                <li class = "menu" >
+                    <a id="add" href="#">Şikayet ekle/sil</a> 
+                </li> 
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li class = "Profile" >
+                    <a id="Profile" href="#">Profil</a> 
+                </li>
+                <li class = "Login">
+                    <a id = "login" href="Login.html">Giriş Yap / Üye Ol</a>
+                </li> 
+            </ul>
+    </div>
+</nav>
+
+
+    
+
+
+<div class="complaints panel-group">
+
+    <input id = "search-bar" type="text" class="text-center" placeholder="Şikayet Başlığı Ara">
+    
+    <div class="pnlskyt panel panel-default" id="sikayet1"> 
+        <div class="cmp panel-heading text-center">
+            Şirket 
+        </div>
+        <div class="hdr panel-heading"> 
+            Siparişi iptal ettim ancak para iadesi yapılmadı.
+        </div>
+        <div class="Sikayet panel-body">
+            17.05.2022 tarihinde siparişini verdiğim, 33024 numaralı ürünün siparişini 18.05.2022 tarihinde iptal ettim ancak para iadesi yapılmadı.
+        </div>
+        <button class="kaldir" id="kaldir1">Şikayeti Kaldır</button>
+        <input id="inpyanit1" type="text" placeholder="yanıt">
+        <button class="btnyanit" id="yanitla1">Yanıtla</button>
+        <button class="btnsolved" id="solved-button1">Çözüldü olarak işaretle</button>
+        <button class= "kapat" id="kapat1">Şikayeti kapat</button>
+    </div>
+
+
+    <div class="pnlskyt panel panel-default" id="sikayet2">
+        <div class="cmp panel-heading text-center">
+            Şirket 
+        </div>
+        <div class="hdr panel-heading">
+            Sipariş ettiğim ürün hala gelmedi.
+        </div> 
+        <div class=" Sikayet panel-body">
+            14.05.2022 tarihinde sipariş ettiğim  32499 numaralı ürün aradan 1 ay geçmesine rağmen hala elime ulaşmadı.
+        </div>
+        <button class="kaldir" id="kaldir2">Şikayeti Kaldır</button>
+        <input id="inpyanit2" type="text" placeholder="yanıt">
+        <button class="btnyanit" id="yanitla2">Yanıtla</button>
+        <button class="btnsolved" id="solved-button2">Çözüldü olarak işaretle</button>
+        <button class= "kapat" id="kapat2">Şikayeti kapat</button>
+    </div>
+
+    <div class="pnlskyt panel panel-default" id="sikayet3">
+        <div class="cmp panel-heading text-center">
+            Şirket 
+        </div>
+        <div class="hdr panel-heading">
+            Sipariş ettiğim ürün hasarlı geldi.
+        </div>
+        <div class="Sikayet panel-body">
+            13.02.2022 tarihinde sipariş ettiğim 26344 numaralı ürün 16.02.2022 tarihinde hasarlı bir şekilde geldi. 
+        </div>
+        <button class="kaldir" id="kaldir3">Şikayeti Kaldır</button>
+        <input id="inpyanit3" type="text" placeholder="yanıt">
+        <button class="btnyanit" id="yanitla3">Yanıtla</button>
+        <button class="btnsolved" id="solved-button3">Çözüldü olarak işaretle</button>
+        <button class= "kapat" id="kapat3">Şikayeti kapat</button>
+    </div>
+
+    <div class="pnlskyt panel panel-default" id="sikayet4">
+        <div class="cmp panel-heading text-center">
+            Şirket 
+        </div>
+        <div class="hdr panel-heading">
+            Sipariş ettiğim ürün geç bir tarihte geldi.
+        </div>
+        <div class="panel-body">
+            10.02.2022 tarihinde sipariş ettiğim 24763 numaralı ürünün son teslimat tarihi 23.02.2022 gözüküyordu, ancak ürün bana 10.03.2022 tarihinde ulaştı.
+        </div>
+        <button class="kaldir" id="kaldir4">Şikayeti Kaldır</button>
+        <input id="inpyanit4" type="text" placeholder="yanıt">
+        <button class="btnyanit" id="yanitla4">Yanıtla</button>
+        <button class="btnsolved" id="solved-button4">Çözüldü olarak işaretle</button>
+        <button class= "kapat" id="kapat4">Şikayeti kapat</button>
+    </div>
+
+    <div class="pnlskyt panel panel-default" id="sikayet5">
+        <div class="cmp panel-heading text-center">
+            Şirket
+        </div>
+        <div class="hdr panel-heading">
+            Cüzdanıma yüklediğim para cüzdan bakiyeme eklenmedi.
+        </div>
+        <div class="panel-body">
+            17.02.2022 tarihinde cüzdan bakiyeme banka kartımla 100 tl yükledim, kartımdan 100 tl çekilmesine rağmen cüzdan bakiyeme eklenmedi.
+        </div>
+        <button class="kaldir" id="kaldir5">Şikayeti Kaldır</button>
+        <input id="inpyanit5" type="text" placeholder="yanıt">
+        <button class="btnyanit" id="yanitla5">Yanıtla</button>
+        <button class="btnsolved" id="solved-button5">Çözüldü olarak işaretle</button>
+        <button class= "kapat" id="kapat5">Şikayeti kapat</button>
+    </div>
+
+    <div class="pnlskyt panel panel-default" id="sikayet6">
+        <div class="cmp panel-heading text-center">
+            Şirket 
+        </div>
+        <div class="hdr panel-heading">
+            Cüzdan bakiyemdeki para kayboldu.
+        </div> 
+        <div class="panel-body">
+            Cüzdan bakiyemi son kontrol ettiğimde 200 tl'ye sahiptim, 17.02.2022' de hesabıma tekrar giriş yapıp bakiyemi kontrol ettiğimde 0 tl olduğunu gördüm.
+        </div>
+        <button class="kaldir" id="kaldir6">Şikayeti Kaldır</button>
+        <input id="inpyanit6" type="text" placeholder="yanıt">
+        <button class="btnyanit" id="yanitla6">Yanıtla</button>
+        <button class="btnsolved" id="solved-button6">Çözüldü olarak işaretle</button>
+        <button class= "kapat" id="kapat6">Şikayeti kapat</button>
+    </div>
+
+    <div class="pnlskyt panel panel-default" id="sikayet7">
+        <div class="cmp panel-heading text-center">
+            Şirket 
+        </div>
+        <div class="hdr panel-heading">
+            Ürün görsellerdeki gibi değildi.
+        </div>
+        <div class="panel-body">
+            16.03.2022 tarihinde sipariş ettiğim 28034 numaralı ürün 17.03.2022 tarihinde elime ulaştı ancak rengi ve şekli görsellerdekinden farklıydı.
+        </div>    
+        <button class="kaldir" id="kaldir7">Şikayeti Kaldır</button>
+        <input id="inpyanit7" type="text" placeholder="yanıt">
+        <button class="btnyanit" id="yanitla7">Yanıtla</button>
+        <button class="btnsolved" id="solved-button7">Çözüldü olarak işaretle</button>
+        <button class= "kapat" id="kapat7">Şikayeti kapat</button>
+    </div>
+
+    <div class="pnlskyt panel panel-default" id="sikayet8">
+        <div class="cmp panel-heading text-center">
+            Şirket 
+        </div>
+        <div class="hdr panel-heading">
+            Firmanın web sitesine giriş yapamıyorum.
+        </div>
+        <div class="panel-heading">
+            Daha önceden oluşturduğum hesabımla giriş yapmaya çalıştığımda, "Böyle bir hesap bulunamadı" hatasıyla karşılaşıyorum.
+        </div>
+        <button class="kaldir" id="kaldir8">Şikayeti Kaldır</button>
+        <input id="inpyanit8" type="text" placeholder="yanıt">
+        <button class="btnyanit" id="yanitla8">Yanıtla</button>
+        <button class="btnsolved" id="solved-button8">Çözüldü olarak işaretle</button>
+        <button class= "kapat" id="kapat8">Şikayeti kapat</button>
+    </div>
+   
+    <div class="pnlskyt panel panel-default" id="sikayet9">
+        <div class="cmp panel-heading text-center">
+            Şirket 
+        </div>
+        <div class="hdr panel-heading">
+            Firmanın müşteri hizmetleri yanıt vermiyor.
+        </div>
+        <div class="panel-body">
+            18.06.2022 tarihinde siparişimle ilgili bir sorunu bildirmek için müşteri hizmetlerini aradım ancak yanıt verilmedi.
+        </div>
+        <button class="kaldir" id="kaldir9">Şikayeti Kaldır</button>
+        <input id="inpyanit9" type="text" placeholder="yanıt">
+        <button class="btnyanit" id="yanitla9">Yanıtla</button>
+        <button class="btnsolved" id="solved-button9">Çözüldü olarak işaretle</button>
+        <button class= "kapat" id="kapat9">Şikayeti kapat</button>
+    </div>
+
+    <div class="pnlskyt panel panel-default" id="sikayet10">
+        <div class="cmp panel-heading text-center">
+            Şirket 
+        </div>
+        <div class="hdr panel-heading">
+            Ürünüm yanlış adrese gönderildi
+        </div>
+        <div class="panel-body">
+            16.03.2022 tarihinde sipariş ettiğim 28444 numaralı ürün 17.03.2022 tarihinde başka bir adrese teslim edildi.
+        </div>    
+        <button class="kaldir" id="kaldir10">Şikayeti Kaldır</button>
+        <input id="inpyanit10" type="text" placeholder="yanıt">
+        <button class="btnyanit" id="yanitla10">Yanıtla</button>
+        <button class="btnsolved" id="solved-button10">Çözüldü olarak işaretle</button>
+        <button class= "kapat" id="kapat10">Şikayeti kapat</button>
+    </div>
+</div>
+
+</body>
+</html>
